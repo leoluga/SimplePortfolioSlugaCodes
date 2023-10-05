@@ -135,6 +135,7 @@ h1 span{
 .socialmedia{
 	display: flex;
 	margin-top: 30px;
+
 }
 .resumelink{
 	background: var(--maincolor);
@@ -148,6 +149,7 @@ h1 span{
 	transition: box-shadow 0.2s;
 	color: #eee;
 	text-decoration: none;
+	justify-self: center;
 }
 .resumelink:hover{
 	box-shadow: 0 2px 15px 0 #000070;
@@ -165,6 +167,7 @@ h1 span{
 	color: var(--maincolor);
 	border: 1px solid #ccc;
 	box-shadow: 0 4px 6px 0 #777;
+	justify-self: center;
 }
 .sociallist li a:hover{
 	box-shadow: 0 2px 15px 0 #000070;
