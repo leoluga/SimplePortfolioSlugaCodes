@@ -5,7 +5,8 @@
 	/* margin-top: 30px; */
 }
 :root{
-	--maincolor: #200589;
+	--maincolor: #11034b;
+	--othercolor: #1fe9ff;
 }
 /* --------------HEADER------------------------------------------------------------------------------------------ */
 .nav_ul_li_a{
@@ -32,9 +33,9 @@ nav{
 	/* font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif; */
 	font-family: monospace;
 	font-size: larger;
-	background: var(--maincolor);
+	background: var(--othercolor);
 	height: 9vh;
-	width: 100vw;
+	width: 100%;
 	position: fixed;
 }
 .nav_ul{
@@ -68,7 +69,7 @@ página do site para computadores*/
 
 body{
 	/* font-family: 'Poppins', sans-serif; */
-	background: #ddd;
+	background: #2b2828;
 	font-family: monospace;
 	font-size: larger;
 	color: #333;
@@ -99,35 +100,48 @@ body{
 	border-radius: 50%;
 	object-fit: cover;
 	z-index: -1;
-	box-shadow: 4px 0 10px 0 #777, 8px 0 10px 0 #aaa, 12px 0 10px 0 #eee;
+	box-shadow: 4px 0 20px 0 #ffffff, 8px 0 30px 0 #7ef9ff, 12px 0 60px 0 #1fe9ff;
 }
 .description_text{
 	flex-basis: 50%;
 	padding: 15px 35px 0 20px;
 	width: 100%;
+	color: #fff;
+	/* text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 30px #0fa,
+      0 0 40px #0fa,
+      0 0 60px #0fa,
+      0 0 80px #0fa,
+      0 0 100px #0fa; */
 }
 .greeting{
 	letter-spacing: 1.5px;
 	font-size: 1em;
 	line-height: 1.5;
+	color: #fff;
 }
 h1{
 	font-size: 2.5em;
 	letter-spacing: 2.5px;
 	margin: 24px 0;
+	color:#fff;
 }
 h1 span{
-	color: var(--maincolor);
+	color: var(--othercolor);
 }
 .smalldescription{
 	letter-spacing: 1px;
-	color: #555551;
+	color: #fff;
 	font-size: 1.2rem;
 	min-width: 250px;
 	line-height: 1.5;
+
 }
 .smalldescription span{
-	color: var(--maincolor);
+	color: var(--othercolor);
 	font-size: 1.2rem;
 	font-weight: 550;
 }
@@ -138,21 +152,22 @@ h1 span{
 
 }
 .resumelink{
-	background: var(--maincolor);
-	margin: -13px 0;
+	background: var(--othercolor);
+	margin: 0 14px;
 	padding: 15px 35px;
-	border-radius: 40px;
+	border-radius: 20px;
 	letter-spacing: 2.5px;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: 300;
 	display: inline-block;
 	transition: box-shadow 0.2s;
 	color: #eee;
 	text-decoration: none;
 	justify-self: center;
+	text-align: center;
 }
 .resumelink:hover{
-	box-shadow: 0 2px 15px 0 #000070;
+	box-shadow: 0 2px 15px 0 #1fe9ff;
 }
 .sociallist{
 	margin: 40px 0;
@@ -164,16 +179,16 @@ h1 span{
 	padding: 9px 10px;
 	background: #fff;
 	border-radius: 6px;
-	color: var(--maincolor);
+	color: var(--othercolor);
 	border: 1px solid #ccc;
 	box-shadow: 0 4px 6px 0 #777;
 	justify-self: center;
 }
 .sociallist li a:hover{
-	box-shadow: 0 2px 15px 0 #000070;
+	box-shadow: 0 2px 15px 0 #06ffd5;
 }
 .sociallist li a i{
-	color: var(--maincolor);
+	color: var(--othercolor);
 }
 /*---------------ABOUT ME------------------------------------------------------------------------------------------------.*/
 .about{
